@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackshade1"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:src="@drawable/scanner"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="70dp"
+       android:id="@+id/IVlogo"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Hello, user; click on the button below to proceed"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:layout_below="@+id/IVlogo"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:id="@+id/IVhead"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IVhead"
+        android:layout_margin="20dp"
+        android:text="Get Started."
+        android:textAllCaps="false"
+        android:id="@+id/btn_capture"
+        />
+
+
+
+
+
+
+</RelativeLayout>
